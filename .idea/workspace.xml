@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c2c3fa0-00ef-45da-9aff-37240b26110c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JupyterTrust" id="6ab82323-e934-41de-9178-aca105497232" />
+  <component name="ProjectId" id="1nl0mABKMhi3dVoH0lwXGHFuX8d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/back/core" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c2c3fa0-00ef-45da-9aff-37240b26110c" name="Default Changelist" comment="" />
+      <created>1611949526343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611949526343</updated>
+      <workItem from="1611949527433" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="466" y="119" width="426" height="478" key="FileChooserDialogImpl" timestamp="1611949539230">
+      <screen x="0" y="0" width="1366" height="723" />
+    </state>
+    <state x="466" y="119" width="426" height="478" key="FileChooserDialogImpl/0.0.1366.723@0.0.1366.723" timestamp="1611949539230" />
+  </component>
+</project>
