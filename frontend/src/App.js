@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Route } from 'react-router-dom';
 
-import CustomersList from './CustomersList';
-import CustomerCreateUpdate from './CustomerCreateUpdate';
+import CustomersList from './views/Customer/CustomersList';
+import CustomerCreateUpdate from './views/Customer/CustomerCreateUpdate';
 import './App.css';
-import Nav from '../src/components/Nav';
+import Nav from './components/Navbar';
 
 import Home from './views/Home/HomePage';
 import About from './views/About/AboutPage';
