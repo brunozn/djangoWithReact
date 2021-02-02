@@ -44,6 +44,7 @@ class CustomersList extends Component {
   render() {
     return (
       <div className="customers--list">
+        <a href={'/cliente/novo'}>Novo</a>
         <table className="table">
           <thead key="thead">
             <tr>
@@ -68,18 +69,21 @@ class CustomersList extends Component {
                 <td>{c.address}</td>
                 <td>{c.description}</td>
                 <td>
-                  <button onClick={(e) => this.handleDelete(e, c.pk)}>
+                  <button
+                    className="btn btn-danger"
+                    onClick={(e) => this.handleDelete(e, c.pk)}
+                  >
                     {' '}
-                    Delete
+                    Apagar
                   </button>
-                  <a href={'/customer/' + c.pk}> Update</a>
+                  <a href={'/customer/' + c.pk}> Atualizar</a>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
         <button className="btn btn-primary" onClick={this.nextPage}>
-          Next
+          Avançar
         </button>
       </div>
     );

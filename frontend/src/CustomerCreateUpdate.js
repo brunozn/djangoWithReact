@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CustomersService from './CustomersService';
+import { Redirect } from 'react-router-dom';
 
 const customersService = new CustomersService();
 
@@ -57,6 +58,7 @@ class CustomerCreateUpdate extends Component {
       .then((result) => {
         console.log(result);
         alert('Cliente atualizado!');
+        <Redirect to="/customer/" />;
       })
       .catch(() => {
         alert('Error! Por favor, verifique os dados.');
@@ -97,8 +99,8 @@ class CustomerCreateUpdate extends Component {
 
           <label>Descrição:</label>
           <textarea className="form-control" ref="description"></textarea>
-
-          <input className="btn btn-primary" type="submit" value="Submit" />
+          <br />
+          <input className="btn btn-primary" type="submit" value="Cadastrar" />
         </div>
       </form>
     );
