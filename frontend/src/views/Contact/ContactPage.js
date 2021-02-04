@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
+import Banner from './BannerContact';
 
 const ContactPage = () => (
   <Fragment>
-    <h1>Contato</h1>
+    <Banner />
   </Fragment>
 );
 

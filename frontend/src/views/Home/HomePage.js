@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Container } from './style';
 
 const HomePage = () => (
-  <Fragment>
+  <Container>
     <h1>Home</h1>
-  </Fragment>
+  </Container>
 );
 
 export default HomePage;

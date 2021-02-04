@@ -1,9 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import { Container } from '../Contact/BannerContact/styles';
 
 const AboutPage = () => (
-  <Fragment>
+  <Container>
     <h1>Sobre</h1>
-  </Fragment>
+  </Container>
 );
 
 export default AboutPage;

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 import colors from '../../UI/colors';
 
 export const Container = styled.footer`
-  position: fixed;
-  bottom 0;
-  left: 0;
-  right: 0;
+  // position: fixed;
+  // bottom 0;
+  // left: 0;
+  // right: 0;
   margin-top: 10px;
   padding: 30px 30px;
   background: ${colors.dark};
@@ -20,7 +20,7 @@ export const Wrapper = styled.div`
   justify-content: center;
   max-width: 100vw;
   margin: 0 auto;
-  background: red;
+  // background: red;
 `;
 
 export const Column = styled.div`
@@ -28,7 +28,7 @@ export const Column = styled.div`
   flex-direction: column;
   text-align: left;
   margin-left: 30px;
-  background: green;
+  // background: green;
 `;
 
 export const ColumnImg = styled.div`
