@@ -6,13 +6,13 @@ import {
   TitleSection,
   Wrapper,
   Row,
-  ColumnLeft,
+  Column,
   FormFormContactHome,
   InputFormContactHome,
   ButtonFormContactHome,
 } from './styles';
 
-import ImgContact from '../../../assets/contactHome.svg';
+import ImgContact from '../../../assets/contact.svg';
 
 function ContactHome() {
   const [{ values, loading }, handleChange, handleSubmit] = useForm();
@@ -30,10 +30,10 @@ function ContactHome() {
       </TitleSection>
       <Wrapper>
         <Row>
-          <ColumnLeft>
+          <Column>
             <img alt="contact" src={ImgContact} />
-          </ColumnLeft>
-          <ColumnLeft>
+          </Column>
+          <Column>
             <FormFormContactHome onSubmit={handleSubmit(enviarContato)}>
               <InputFormContactHome
                 onChange={handleChange}
@@ -44,17 +44,18 @@ function ContactHome() {
 
               <InputFormContactHome
                 onChange={handleChange}
+                type="email"
+                name="email"
+                placeholder="Digite o seu e-mail"
+              />
+
+              <InputFormContactHome
+                onChange={handleChange}
                 type="text"
                 name="assunto"
                 placeholder="Informe o assunto"
               />
 
-              <InputFormContactHome
-                onChange={handleChange}
-                type="email"
-                name="email"
-                placeholder="Digite o seu e-mail"
-              />
               <InputFormContactHome
                 onChange={handleChange}
                 type="text"
@@ -67,7 +68,7 @@ function ContactHome() {
                 {loading ? 'Enviando...' : 'Enviar'}
               </ButtonFormContactHome>
             </FormFormContactHome>
-          </ColumnLeft>
+          </Column>
         </Row>
       </Wrapper>
     </ContainerContactHome>
